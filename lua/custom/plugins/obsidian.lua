@@ -13,8 +13,8 @@ return {
 			},
 			workspaces = {
 				{
-					name = "personal",
-					path = "~/Documents/personal",
+					name = "zettlekasten",
+					path = "~/zettlekasten",
 				},
 			},
 			templates = {
