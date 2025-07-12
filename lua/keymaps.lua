@@ -27,4 +27,6 @@ vim.keymap.set("n", "<leader>toc", ":ObsidianTOC<cr>")
 
 -- Telescope
 vim.keymap.set("n", "<leader>sf", ":Telescope find_files<cr>")
+vim.keymap.set("n", "<leader>sg", ":Telescope live_grep<cr>")
+vim.keymap.set("n", "<leader>ss", ":Telescope buffers<cr>")
 vim.keymap.set("n", "<leader>s.", ":Telescope oldfiles<cr>", { desc = '[S]earch Recent Files ("." for repeat)' })
